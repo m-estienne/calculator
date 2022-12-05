@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body{
+ padding: 15rem;
+ height: 100%;
+ background-image: url(../img/calc_bg.jpg);
+ background-position: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: rgb(206, 200, 192);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.information{
+    background-color: brown;
+    color: white;
+    width: 46rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+   
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.display{
+    background-color: black;
+    width: 25rem;
+    height: 4rem;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcDisplay{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+form{
+    display: flex;
+}
+
+input{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+}
+
+select, option{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1,3rem;
+    background-color: black;
+    color: whitesmoke;
+    height: 2rem;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
